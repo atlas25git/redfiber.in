@@ -1,0 +1,19 @@
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.image1 {
+	border-bottom: 1px solid red;
+	align-items: center;
+	padding: 30px;
+	width: 250px;
+	height: 300px;
+	transition: .5s;
+
+}
+.image1:hover{
+	transform: scale(1.2);
+}
